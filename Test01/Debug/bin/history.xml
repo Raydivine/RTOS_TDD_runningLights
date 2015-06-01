@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test01.map -O0 --gc-sections -LC:/Users/Student/CoIDE/workspace/RTOS_TDD_runningLights -TC:/Users/Student/CoIDE/workspace/RTOS_TDD_runningLights/stm32f407vg_flash.ld -g">
+      <target file="Test01.elf" lastModified="14dadb0a25c">
+         <source file="..\obj\runningLight.o" lastModified="14dadb0173e"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14dadb01579"/>
+         <source file="..\obj\initButton.o" lastModified="14dadb014fc"/>
+         <source file="..\obj\initLED.o" lastModified="14dadb016e0"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14dadb015b8"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="14dadb013f3"/>
+         <source file="..\obj\readButton.o" lastModified="14dadb01615"/>
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14dadb01682"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14dadb0149f"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="14dadb01357"/>
+         <source file="..\obj\main.o" lastModified="14dadb0a088"/>
+         <source file="..\obj\timingControl.o" lastModified="14dadb0179b"/>
+      </target>
+   </processor>
+</history>
